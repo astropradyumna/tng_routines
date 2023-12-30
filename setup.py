@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='pyexample',
+    name='tng_routines',
     version='0.1.0',    
     description='A example Python package',
     url='https://https://github.com/astropradyumna/tng_routines',
     author='Pradyumna Sadhu',
     author_email='pradyumna.sadhu@gmail.com',
     license='BSD 2-clause',
-    packages=['pyexample'],
+    packages=['tng_routines'],
     install_requires=['numpy',                     
                       ],
 
@@ -21,6 +21,6 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 )
